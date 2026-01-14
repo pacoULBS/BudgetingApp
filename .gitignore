@@ -1,0 +1,45 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserdatad
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.moved-aside
+xcuserdata/
+.DS_Store
+
+# Swift Package Manager
+/.build
+/Packages
+/Package.resolved
+
+# CocoaPods
+/Pods
+
+# Carthage
+/Carthage
+
+# Fastlane
+tmp/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Bundler
+/.bundle
+
+# Archives
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.mobileprovision
+
+# Logs
+*.log
+
+# Realm
+*.realm
+*.realm.lock
+*.realm.management
+*.realm.note
