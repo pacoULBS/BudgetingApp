@@ -11,7 +11,7 @@ struct BudgetRule: Codable {
     }
 }
 
-final class FinanceStore {
+final class FinanceStore: ObservableObject {
     private let realm: Realm
     private let calendar = Calendar.current
 

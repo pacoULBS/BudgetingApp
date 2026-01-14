@@ -16,8 +16,9 @@ struct NotificationsManager {
         content.body = "Don't forget to log your expenses today!"
         content.sound = .default
         
-        // Schedule for next day at 8 PM
-        var dateComponents = DateComponents()
+        // Schedule for tomorrow at 8 PM
+        var dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: Date())
+        dateComponents.day! += 1
         dateComponents.hour = 20
         dateComponents.minute = 0
         

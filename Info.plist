@@ -48,7 +48,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSUserNotificationsUsageDescription</key>
-	<string>We need permission to send you reminders to log your expenses.</string>
 </dict>
 </plist>
