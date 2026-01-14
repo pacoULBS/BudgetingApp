@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+	8F0C6B201234567800000010 /* BudgetingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B101234567800000010 /* BudgetingAppApp.swift */; };
+	8F0C6B201234567800000011 /* FinanceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B101234567800000011 /* FinanceModels.swift */; };
+	8F0C6B201234567800000012 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B101234567800000012 /* RealmConfig.swift */; };
+	8F0C6B201234567800000013 /* FinanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000013 /* FinanceStore.swift */; };
+	8F0C6B201234567800000014 /* BudgetEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000014 /* BudgetEngine.swift */; };
+	8F0C6B201234567800000015 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000015 /* DashboardViewModel.swift */; };
+	8F0C6B201234567800000016 /* EntryFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000016 /* EntryFormViewModel.swift */; };
+	8F0C6B201234567800000017 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000017 /* HistoryViewModel.swift */; };
+	8F0C6B201234567800000018 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000018 /* DashboardView.swift */; };
+	8F0C6B201234567800000019 /* EntryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B201234567800000019 /* EntryFormView.swift */; };
+	8F0C6B20123456780000001A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001A /* HistoryView.swift */; };
+	8F0C6B20123456780000001B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001B /* SettingsView.swift */; };
+	8F0C6B20123456780000001C /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001C /* NotificationsManager.swift */; };
+	8F0C6B20123456780000001D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001D /* DateExtensions.swift */; };
+	8F0C6B20123456780000001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001E /* Assets.xcassets */; };
+	8F0C6B20123456780000001F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0C6B20123456780000001F /* Info.plist */; };
+	8F0C6B201234567800000020 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F0C6B501234567800000050 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	8F0C6B001234567800000002 /* BudgetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	8F0C6B101234567800000010 /* BudgetingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingAppApp.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000011 /* FinanceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceModels.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000012 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000013 /* FinanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStore.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000014 /* BudgetEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetEngine.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000015 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000016 /* EntryFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormViewModel.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000017 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000018 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+	8F0C6B101234567800000019 /* EntryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormView.swift; sourceTree = "<group>"; };
+	8F0C6B10123456780000001A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+	8F0C6B10123456780000001B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+	8F0C6B10123456780000001C /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+	8F0C6B10123456780000001D /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+	8F0C6B10123456780000001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+	8F0C6B10123456780000001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	8F0C6B0A123456780000000A /* Frameworks */ = {
+		isa = PBXFrameworksBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			8F0C6B201234567800000020 /* RealmSwift in Frameworks */, 
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	8F0C6B0B123456780000000B = {
+		isa = PBXGroup;
+		children = (
+			8F0C6B10123456780000001F /* Info.plist */, 
+			8F0C6B10123456780000001E /* Assets.xcassets */, 
+			8F0C6B101234567800000010 /* BudgetingAppApp.swift */, 
+			8F0C6B101234567800000011 /* FinanceModels.swift */, 
+			8F0C6B101234567800000012 /* RealmConfig.swift */, 
+			8F0C6B101234567800000013 /* FinanceStore.swift */, 
+			8F0C6B101234567800000014 /* BudgetEngine.swift */, 
+			8F0C6B101234567800000015 /* DashboardViewModel.swift */, 
+			8F0C6B101234567800000016 /* EntryFormViewModel.swift */, 
+			8F0C6B101234567800000017 /* HistoryViewModel.swift */, 
+			8F0C6B101234567800000018 /* DashboardView.swift */, 
+			8F0C6B101234567800000019 /* EntryFormView.swift */, 
+			8F0C6B10123456780000001A /* HistoryView.swift */, 
+			8F0C6B10123456780000001B /* SettingsView.swift */, 
+			8F0C6B10123456780000001C /* NotificationsManager.swift */, 
+			8F0C6B10123456780000001D /* DateExtensions.swift */,
+		);
+		sourceTree = "<group>";
+	};
+	8F0C6B0C123456780000000C /* Products */ = {
+		isa = PBXGroup;
+		children = (
+			8F0C6B001234567800000002 /* BudgetingApp.app */, 
+		);
+		name = Products;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	8F0C6B031234567800000003 /* BudgetingApp */ = {
+		isa = PBXNativeTarget;
+		buildConfigurationList = 8F0C6B0F123456780000000F /* Build configuration list for PBXNativeTarget "BudgetingApp" */;
+		buildPhases = (
+			8F0C6B081234567800000008 /* Sources */, 
+			8F0C6B0A123456780000000A /* Frameworks */, 
+			8F0C6B091234567800000009 /* Resources */, 
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = BudgetingApp;
+		packageProductDependencies = (
+			8F0C6B501234567800000050 /* RealmSwift */, 
+		);
+		productName = BudgetingApp;
+		productReference = 8F0C6B001234567800000002 /* BudgetingApp.app */;
+		productType = "com.apple.product-type.application";
+	};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	8F0C6B021234567800000002 /* Project object */ = {
+		isa = PBXProject;
+		attributes = {
+			LastSwiftUpdateCheck = 1500;
+			LastUpgradeCheck = 1500;
+			ORGANIZATIONNAME = "BudgetingApp";
+			TargetAttributes = {
+				8F0C6B031234567800000003 = {
+					CreatedOnToolsVersion = 15.0;
+				};
+			};
+		};
+		buildConfigurationList = 8F0C6B0E123456780000000E /* Build configuration list for PBXProject "BudgetingApp" */;
+		compatibilityVersion = "Xcode 14.0";
+		developmentRegion = en;
+		hasScannedForEncodings = 0;
+		knownRegions = (
+			en,
+		);
+		mainGroup = 8F0C6B0B123456780000000B;
+		packageReferences = (
+			8F0C6B601234567800000060 /* XCRemoteSwiftPackageReference "realm-swift" */, 
+		);
+		productRefGroup = 8F0C6B0C123456780000000C /* Products */;
+		projectDirPath = "";
+		projectRoot = "";
+		targets = (
+			8F0C6B031234567800000003 /* BudgetingApp */, 
+		);
+	};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+	8F0C6B091234567800000009 /* Resources */ = {
+		isa = PBXResourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			8F0C6B20123456780000001E /* Assets.xcassets in Resources */, 
+			8F0C6B20123456780000001F /* Info.plist in Resources */, 
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+	8F0C6B081234567800000008 /* Sources */ = {
+		isa = PBXSourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			8F0C6B201234567800000010 /* BudgetingAppApp.swift in Sources */, 
+			8F0C6B201234567800000011 /* FinanceModels.swift in Sources */, 
+			8F0C6B201234567800000012 /* RealmConfig.swift in Sources */, 
+			8F0C6B201234567800000013 /* FinanceStore.swift in Sources */, 
+			8F0C6B201234567800000014 /* BudgetEngine.swift in Sources */, 
+			8F0C6B201234567800000015 /* DashboardViewModel.swift in Sources */, 
+			8F0C6B201234567800000016 /* EntryFormViewModel.swift in Sources */, 
+			8F0C6B201234567800000017 /* HistoryViewModel.swift in Sources */, 
+			8F0C6B201234567800000018 /* DashboardView.swift in Sources */, 
+			8F0C6B201234567800000019 /* EntryFormView.swift in Sources */, 
+			8F0C6B20123456780000001A /* HistoryView.swift in Sources */, 
+			8F0C6B20123456780000001B /* SettingsView.swift in Sources */, 
+			8F0C6B20123456780000001C /* NotificationsManager.swift in Sources */, 
+			8F0C6B20123456780000001D /* DateExtensions.swift in Sources */, 
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+	8F0C6B0D123456780000000D /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			DEVELOPMENT_ASSET_PATHS = "";
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = BudgetingApp/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.paco.BudgetingApp;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};
+		name = Debug;
+	};
+	8F0C6B0D123456780000000E /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_ASSET_PATHS = "";
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = BudgetingApp/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.paco.BudgetingApp;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};
+		name = Release;
+	};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+	8F0C6B0E123456780000000E /* Build configuration list for PBXProject "BudgetingApp" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			8F0C6B0D123456780000000D /* Debug */, 
+			8F0C6B0D123456780000000E /* Release */, 
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+	8F0C6B0F123456780000000F /* Build configuration list for PBXNativeTarget "BudgetingApp" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			8F0C6B0D123456780000000D /* Debug */, 
+			8F0C6B0D123456780000000E /* Release */, 
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+	8F0C6B601234567800000060 /* realm-swift */ = {
+		isa = XCRemoteSwiftPackageReference;
+		repositoryURL = "https://github.com/realm/realm-swift.git";
+		requirement = { kind = upToNextMajorVersion; minimumVersion = 10.49.0; };
+	};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+	8F0C6B501234567800000050 /* RealmSwift */ = {
+		isa = XCSwiftPackageProductDependency;
+		package = 8F0C6B601234567800000060 /* realm-swift */;
+		productName = RealmSwift;
+	};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 8F0C6B021234567800000002 /* Project object */;
+}
